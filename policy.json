@@ -1,0 +1,20 @@
+{
+  "support-assistant": {
+    "approved_permissions": [
+      "tickets:read",
+      "replies:draft"
+    ],
+    "approval_expires": "2026-09-30",
+    "human_approval_required_for": []
+  },
+  "invoice-assistant": {
+    "approved_permissions": [
+      "invoices:draft",
+      "payments:execute"
+    ],
+    "approval_expires": "2026-12-31",
+            "human_approval_required_for": [
+      "payments:execute"
+    ]
+  }
+}

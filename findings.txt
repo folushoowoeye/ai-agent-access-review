@@ -1,0 +1,12 @@
+
+Reviewing: support-assistant
+Owner recorded: Customer Support Team
+FINDING: Access approval expired on 2026-09-30.
+PASS: No permissions exceed approved access.
+PASS: No required human approval controls are missing.
+
+Reviewing: invoice-assistant
+Owner recorded: Finance Team
+Approval valid through: 2026-12-31
+PASS: No permissions exceed approved access.
+PASS: No required human approval controls are missing.

@@ -1,0 +1,24 @@
+[
+  {
+    "agent_id": "support-assistant",
+    "owner": "Customer Support Team",
+    "purpose": "Read support tickets and draft replies",
+    "permissions": [
+      "tickets:read",
+      "replies:draft"
+    ],
+    "human_approval_enabled_for": []
+  },
+  {
+    "agent_id": "invoice-assistant",
+    "owner": "Finance Team",
+    "purpose": "Prepare invoices and execute payments after human approval",
+        "permissions": [
+      "invoices:draft",
+      "payments:execute"
+    ],        
+     "human_approval_enabled_for": [
+      "payments:execute"
+    ]
+  }
+]
